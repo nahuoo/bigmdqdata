@@ -79,6 +79,7 @@ export const Hero = () => {
     tl.fromTo('.scroll-svg', { opacity: 0 }, { opacity: 1 }, '<');
     tl.fromTo('.animacion-2', { opacity: 0 }, { opacity: 1 });
     tl.fromTo('.animacion-3', { opacity: 0 }, { opacity: 1 });
+    tl.fromTo('.navbar', { opacity: 0 }, { opacity: 1 },'<');
     tl.fromTo('.animacion-4', { opacity: 0 }, { opacity: 1 });
     tl.fromTo('.social-media-tab', { opacity: 0 }, { opacity: 1 });
     tl.fromTo('.animacion-5', { opacity: 0 }, { opacity: 0.1 }, '<');
