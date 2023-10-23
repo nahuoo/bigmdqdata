@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import Intro from "@/components/Intro";
@@ -9,6 +10,7 @@ export default function Home() {
       <Intro />
       <Navbar />
       <Hero />
+      <Contact />
       <Footer />
     </main>
   );
