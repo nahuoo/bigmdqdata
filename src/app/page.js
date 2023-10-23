@@ -1,6 +1,7 @@
-import { Hero } from "@/components/Hero"
-import Intro from "@/components/Intro"
-import { Navbar } from "@/components/Navbar"
+import Contact from "@/components/Contact";
+import { Hero } from "@/components/Hero";
+import Intro from "@/components/Intro";
+import { Navbar } from "@/components/Navbar";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Intro />
       <Navbar />
       <Hero />
+      <Contact />
     </main>
-  )
+  );
 }
