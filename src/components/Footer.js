@@ -28,7 +28,7 @@ export const Footer = () => {
     // Contenedor principal
     <>
       <div className="bg-white pb-6">
-        <div className="flex flex-col items-center justify-center gap-8 bg-white text-gray-600 w-[1280px] mx-auto border-t border-black/50 pt-10">
+        <div className="flex flex-col items-center justify-center gap-8 bg-white text-gray-600 w-[1280px] mx-auto pt-20">
           <div className="flex justify-between font-medium w-full gap-y-2 gap-x-28 text-base items-center">
             {data.map((item, index) => (
               <div key={index} className="flex flex-col gap-3">

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Team() {
   return (
     <div className="bg-white py-24 sm:py-32">
